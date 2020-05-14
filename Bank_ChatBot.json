@@ -1,0 +1,538 @@
+{"intents": [
+  {
+    "tag": "Greetings",
+    "patterns": ["Hi whats up?","Hello whats up?","Hi whats up?","Hey whats up?"],
+    "responses": ["Hi ! I'm doing good"]
+  },
+  {
+    "tag": "What Is A Debit Card",
+    "patterns": ["What Is A Debit Card","Debit Card"],
+    "responses": ["A Debit Card provides access to ATMs for cash withdrawals, balance enquiries and mini statement, on-line electronic payment for purchases from your savings / current (individual) accounts. You can also transfer funds through ATM to your own / other PNB accounts and also transfer / receive funds to / from any MasterCard or Maestro card holder (Debit or Credit card) of other selected banks."]
+  },
+  {
+    "tag": "Types_Debit_Card",
+    "patterns": ["How Many Types Of Debit Cards, Punjab National Bank Is Issuing"],
+    "responses": ["At present bank is issuing chip and PIN based following Debit cards: RuPay/Master Classic Debit Card, RuPay/Master Platinum Debit Card, RuPay Woman Power Saving Platinum Debit Card, Master International Debit Card, Master Business Debit Card, RuPay International Debit Card"]
+  },
+  {
+    "tag": "PIN",
+    "patterns": ["What is PIN or Personal Identification Number"],
+    "responses": ["PIN is a unique 4 digit number that allows you to access your account through Debit Card at ATMs. For safety, your PIN should always be kept completely confidential and your card too should remain in your possession and not to be handed over to anyone else. Neither write PIN on the Back of the Debit card nor Keep Debit Card along with PIN."]
+  },
+  {
+    "tag": "Get_Debit_Card",
+    "patterns": ["How Can I Get A Debit Card"],
+    "responses": ["Debit card can be obtained from any CBS branch of PNB (irrespective of your account maintaining branch) by filling a Debit Card application form. In case of Non-Personalized card (without name) the card would be issued instantly. In case of Personalized card (with name) the card would be issued in 7-8 working days. You can also get a Debit Card through PNB 24 Hour Call Centre by making a call at 1800 180 2222 (Toll free) in which case the deactivated card would be delivered at your address directly within 7-10 working days. However you can send the duly filled application from along with proof of identity to HO for activation of the card."]
+  },
+  {
+    "tag": "Not_Received_Card",
+    "patterns": ["I Have Not Received My Personalized Card Even After 10 Days Of Giving The Request At The Branch / Call Centre"],
+    "responses": ["You should contact the Branch / call centre to enquire about the status of your request. In case you do not get a satisfactory reply, please contact Debit Card Cell at 011 � 28044642 or through email at debitcard@pnb.co.in"]
+  },
+  {
+    "tag": "PIN_Legible",
+    "patterns": ["I Have Received The Debit Card But The PIN Is Not Legible"],
+    "responses": ["You should contact the card issuing branch and request for a duplicate PIN. You can collect the Duplicate PIN from the branch after 7 working days."]
+  },
+  {
+    "tag": "Debit_Working",
+    "patterns": ["How Does The Debit Card Work","How Does Debit Card Work","Debit card Working"],
+    "responses": ["Insert your Debit card in ATM and follow the instructions displayed on the screen. On POS you need to swipe the card and sign the Bill after verifying the amount."]
+  },
+  {
+    "tag": "Debit Card Validity",
+    "patterns": ["What Is The Validity Of PNB Debit Card"],
+    "responses": ["Debit Card is valid for 7 years"]
+  },
+  {
+    "tag": "Transaction Limits Debit Card",
+    "patterns": ["What are Transaction Limits For The Debit Card","Transaction Limits on Debit Card"],
+    "responses": ["Classic Debit card has maximum daily cash withdrawal limit at ATM- Rs. 25,000, POS/ECOM daily maximum limit- Rs. 60,000, Platinum/Woman Power Saver Debit card has maximum daily cash withdrawal limit at ATM- Rs. 50,000, POS/ECOM daily maximum limit- Rs. 1,25,000, Master International Debit card has maximum daily cash withdrawal limit at ATM- Rs. 50,000, POS/ECOM daily maximum limit- Rs. 1,25,000, Master Business Debit card has maximum daily cash withdrawal limit at ATM- Rs. 1,00,000, POS/ECOM daily maximum limit- Rs. 3,00,000"]
+  },
+  {
+    "tag": "Lost_Debit_Card",
+    "patterns": ["If Debit Card Is Lost Or Misplaced What Should I Do"],
+    "responses": ["You should immediately contact our below given no. of call centre to get the card hotlisted / blocked, 1800 180 2222/18001032222 (Toll Free, 0120-2490000 (Paid Number), Through SMS from registered mobile number to 5607040, Syntax is HOT , Through IBS (POST LOGIN)."]
+  },
+  {
+    "tag": "Insurance_Debit_Card",
+    "patterns": ["Is There Any Fee For The Issuance Of Debit Card"],
+    "responses": ["PNB Debit Card is issued free of cost. However a nominal fee of Rs. 100 per Year will be levied after one year of Card issuance every year"]
+  },
+  {
+    "tag": "Charges_Debit_Card",
+    "patterns": ["Is There Any Charge Levied For Use Of The Card For Cash Withdrawal"],
+    "responses": ["No charge is levied for use of the card for cash withdrawal at PNB ATMs while Rs. 20/- is levied at other bank sharing ATMs under MITR, NFS, SBI Group, EBL and the ATMs with Maestro/Cirrus Logo upto 31st March 2009 after which it will be free of charge. Balance Enquiry is free at all banks ATMs."]
+  },
+  {
+    "tag": "Lost_Debit_Card_Reactivate",
+    "patterns": ["If Lost Card Is Subsequently Found/Traced And Restored To Cardholder, Can It Be Reactivated"],
+    "responses": ["card once hot listed / blocked cannot be re-activated. You can make a request for a fresh card."]
+  },
+  {
+    "tag": "Mini Statement",
+    "patterns": ["What Is Mini Statement"],
+    "responses": ["It is a statement of account showing last 10 transactions made in the account through PNB ATM."]
+  },
+  {
+    "tag": "Secrecy_PIN",
+    "patterns": ["How Should I Maintain The Secrecy Of PIN"],
+    "responses": ["If at any time you feel that the PIN has been inadvertently or otherwise divulged to any one you] should change the same through any PNB ATM immediately."]
+  },
+  {
+    "tag": "How_Often_PIN_Change",
+    "patterns": ["How Often Can I Change The PIN"],
+    "responses": ["PIN can be changed any number of times."]
+  },
+  {
+    "tag": "Maximum_Accounts_Linked_Debit_Card",
+    "patterns": ["How Many Accounts Maximum Can Be Linked To My Debit Card"],
+    "responses": ["Maximum of 3 accounts held in the same name and same capacity can be linked to a Debit card"]
+  },
+  {
+    "tag": "Liability_Unauthorized_Use",
+    "patterns": ["Does Bank Bear Any Liability For Unauthorized Use Of The Card"],
+    "responses": ["No. The responsibility is solely vested with the cardholder."]
+  },
+  {
+    "tag": "CVV",
+    "patterns": ["What Is CVV No"],
+    "responses": ["On the back of Debit card (Classic & Gold) there are 7 digits out of which the last 3 digits are the card CVV no. This no. can be used only for ecommerce transaction. Please note that this CVV no is an important value in the card as any person can misuse the card over the internet if he is aware of this value besides other information (like card no., name and Expiry date) without having actual possession of the card. You should remember the CVV number mentioned on the reverse of the Debit card and hide this number by blackening it out to avoid its misuse."]
+  },
+  {
+    "tag": "Add_on",
+    "patterns": ["What Is Add-On Card Facility"],
+    "responses": ["Any card holder can get 2 more Debit cards in the name of his / her spouse and dependent parents and children not below 18 years old. Debit card will be linked to the cardholder`s main account."]
+  },
+  {
+    "tag": "Not_Working_Debit_Card",
+    "patterns": ["My Debit Card Does not work successfully On ATM"],
+    "responses": ["Debit Card does not work successfully on ATMs due to any of the following reasons;You may be using the card before the expiry of 24 working hours of receipt of the card from the branch, In case you have received the card through the call centre you have not sent the required documents (application form and proof of identity) to HO, You may not have swiped the card properly. Try 2 to 3 times, The quality of the magnetic stripe of your card has been damaged / deteriorated due to which it is not accepted by any ATM where the card reader may be weak. In such a case you may try at another nearby ATM and if still does not work get it replaced by a new one from PNB branch free of cost, Your account may be inoperative or frozen at branch level due to some reason. Please contact your branch to know the account status, You may be using wrong PIN, You might have selected the wrong account type i.e. savings instead of current or vice-vers, Connectivity from the ATM to your branch has failed. In such case please try after some time or use another ATM nearby."]
+  },
+  {
+    "tag": "Not_Working_Debit_Card_On_Other_Banks",
+    "patterns": ["My Debit Card Works Successfully On PNB ATMs But Not On Other Banks ATMs"],
+    "responses": ["The problem may be due to connectivity failure at other bank ATM to PNB. Please try after some time when connectivity is restored. Alternately you may try another ATM nearby."]
+  },
+  {
+    "tag": "Not_Working_POS_Terminal_Debit_Card",
+    "patterns": ["My Debit Card Works Successfully On ATMs But Not At POS Terminals"],
+    "responses": ["Debit card does not work successfully on POS terminals due to any of the following reasons; Connectivity failure at that particular time, Weak card reader of POS, Magnetic stripe of the card deteriorated / damaged, It may be a Maestro Card (PIN based), You may use the card after some time when the connectivity is restored or get the card replaced with a signature based card (non-Pin based) from PNB free of cost."]
+  },
+  {
+    "tag": "Not_Working_Few_ATM_Debit_Card",
+    "patterns": ["My Card Does not Work On Few ATMs Of PNB"],
+    "responses": ["The quality of the magnetic stripe of your card has been damaged / deteriorated due to which it is not accepted by few ATMs where the card reader may also be weak. Try at some other nearby ATM. In such case you may get the card replaced by a new one from PNB branch free of cost and lodge a complaint in the branch for replacement of card reader of ATM"]
+  },
+  {
+    "tag": "Offers_Debit_Card",
+    "patterns": ["What Offers Are Available On Debit Cards"],
+    "responses": ["There are many offers available on using debit card for online payments. Check the bank Website for the same."]
+  },
+  {
+    "tag": "Insurance_Debit_Card",
+    "patterns": ["Is There Any Insurance Scheme On Debit Card"],
+    "responses": ["Insurance claim is available on both premium and non-premium debit card users. For details go to - https://www.pnbindiin/ATM-Debit-Card.html --> Insurance Claim"]
+  },
+  {
+    "tag": "Eligible_Housing_Loan",
+    "patterns": ["Who Is Eligible For A Housing Loan"],
+    "responses": ["Individuals in the age group 18-70 years having regular income wishing to own residential properties in India are eligible to avail Housing Loan."]
+  },
+  {
+    "tag": "Maximum_Amount_Housing_Loan",
+    "patterns": ["What Is The Maximum Amount Which One Can Get As Housing Loan"],
+    "responses": ["For Construction, addition or purchase of new/old house/ flat- Need Based, no upper cap ,For Land/Plot - Rs.50 lac, For Repair/Renovation/ alterations - Max Rs.25 lac, For Furnishing- 10% of loan amount max Rs.25 lac"]
+  },
+  {
+    "tag": "Own_Source_Housing_Loan",
+    "patterns": ["How Much Applicant Has To Contribute From Own Sources To Get Housing Loan"],
+    "responses": ["Following are the minimum amount one has to contribute: For loans upto Rs.75.00 lac - 20%, For loans above Rs.75.00 lac - 25%, For Land/Plots - 25%"]
+  },
+  {
+    "tag": "ROI_Housing_Loan",
+    "patterns": ["What Is The ROI At Present for housing loan","ROI for housing loan","What is the ROI for housing loan","What is ROI housing loan"],
+    "responses": ["Click this Link : https://www.pnbindia.in/interst-rate-on-advances-linked-to-mclr.html#housingloan"]
+  },
+  {
+    "tag": "Benefit_Interest_Daily_Housing_Loan",
+    "patterns": ["How Does One Benefit If The Interest Is Calculated On A Daily Reducing Balance"],
+    "responses": ["On the annual reducing balance method, you will continue to pay interest on amounts you repay during the coming one year as the interest for the year is determined on the basis of the balance outstanding at the beginning of the year. In the case of the daily reducing balance, which is the methodology we employ, your interest is calculated only on the outstanding loan amount, which reduces every time you pay off your EMIs or make any prepayments. This in essence lowers your effective rate of interest significantly"]
+  },
+  {
+    "tag": "Principle_Approval_Housing_Loan",
+    "patterns": ["Can One Get An In-Principle Approval of Housing Loan And Actually Avail Of The Loan Later"],
+    "responses": ["Before you choose the house you want to buy, we give you an in principle approval based on your income and repayment capacity. This makes the entire process of identifying and buying a house easier and more flexible. You won't be under pressure to identify a house as you know how much funds the bank would make available to you."]
+  },
+  {
+    "tag": "Valid_Approval_Housing_Loan",
+    "patterns": ["How Long Is This Approval Valid of Housing Loan?"],
+    "responses": ["This in-principle approval is valid for 6 months to give you sufficient time to choose a flat/house of your choice."]
+  },
+  {
+    "tag": "Repayment_Period_Housing_Loan",
+    "patterns": ["What Will Be The Repayment Period Of Housing Loan"],
+    "responses": ["You will get the housing loan for a maximum period upto 30 years, inclusive of moratorium period, if any, or upto your age of 70 years, whichever is earlier. The Bank may, at its discretion, subject to maximum repayment period of 30 years, permit the repayment upto your age of 70 years. Moratorium or repayment holiday may be permitted where the house is constructed till completion of construction or 18 months (6 months in case of repair/renovation/addition/ alteration) from the date of disbursement of first instalment of the loan, whichever is earlier. However, in case of finance for under construction house/ flat from Private builders, maximum moratorium of 36 months or possession whichever is earlier may be permitted subject to monthly servicing of interest. In case of joint-borrowers, the repayment period is fixed according to the age of younger borrower, depending upon the repaying capacity."]
+  },
+  {
+    "tag": "Plot_Purchase_Housing_Loan",
+    "patterns": ["Can Housing Loan Be Given For Purchase Of PLOT"],
+    "responses": ["Yes, it can be given for purchase of Plots (upto 60% of the cost of Plot) for constructing the house building thereon at a later stage. Loan amount for purchase of plot has been restricted to 60% of housing loan eligibility."]
+  },
+  {
+    "tag": "Jointly_Apply_Housing_Loan",
+    "patterns": ["Can I Apply Jointly With My Spouse? Will Both Our Salaries Be Taken Into Consideration For Calculating The Repaying Capacity"],
+    "responses": ["Yes, your salaries can be clubbed for the purpose of calculation of the repaying capacity. This can be done either when the property is jointly held with the spouse or the spouse stands as a coborrower. Besides, income of parents and earning children (whether married or unmarried) is also taken into account for determining the income for the purpose of applicant borrower`s repaying capacity. In such cases, they are made co-borrowers. Thus, we ensure a great deal of flexibility in the entire exercise of financing your house."]
+  },
+  {
+    "tag": "Security_Housing_Loan",
+    "patterns": ["What Security Do I Have To Furnish"],
+    "responses": ["PNB requires mortgage of the property for which the loan is being taken. Where mortgage can't be provided, other tangible security needs to be provided. The title of the property should be clear, for which a certificate would be required from the Banks approved advocate, safeguarding your interests as well as Banks interests."]
+  },
+  {
+    "tag": "Processing_Fees_Housing_Loan",
+    "patterns": ["What Are The Processing Fees And Documentation Charges Charged By The Bank for Housing Loan","Processing Fee for housing loan"],
+    "responses": ["Click this link : https://www.pnbindia.in/service-charges-related-to-retail-advances.html"]
+  },
+  {
+    "tag": "Other_Charges_Housing_Loan",
+    "patterns": ["What Are Other Charges I Have To Pay for housing loan"],
+    "responses": ["All other out of pocket charges viz. CIBIL, Advocate fee, Valuation charges, Central Registry etc."]
+  },
+  {
+    "tag": "EMI",
+    "patterns": ["What Is EMI"],
+    "responses": ["EMI stands for Equated Monthly Installments. Such installment comprises of both principal and interest component."]
+  },
+  {
+    "tag": "Prepay_Housing_Loan",
+    "patterns": ["Can I Prepay The Housing Loan? Are There Any Charges?"],
+    "responses": ["Yes, you can prepay the loan at any stage without any charges on loans sanctioned on Floating rate of interest. In case of loans sanctioned at fixed rate of interest there are no charges in case it is pre-paid from your own sources. However, prepayment charges of 2% are levied in case of shifting of Housing Loan A/c by takeover to other banks/ housing finance institutions. You can also deposit more than your EMI amount into your loan account and bring down your interest burden as and when funds are available with you."]
+  },
+  {
+    "tag": "Where_Avail_Housing_Loan",
+    "patterns": ["Where Can I Avail PNB Housing Loans"],
+    "responses": ["You can contact any of the PNB branches for availing Housing loan."]
+  },
+  {
+    "tag": "NRI_Eligible_Housing_Loan",
+    "patterns": ["Are NRIs Are Also Eligible For Housing Loan From PNB"],
+    "responses": ["Loan to NRI/ PIOs is also available for acquisition/construction/repairs/ renovation/improvement of flat/house to be owned in their names. NRIs/PIOs in India as also for the purpose of purchase of plot. This flat/house, acquired by utilization of the loan, can be used for self occupation/letting out. Loan can also be considered where NRI/PIO is a principal borrower with resident close relative(s)"]
+  },
+  {
+    "tag": "Documents_Housing_Loan",
+    "patterns": ["What Are The Documents Required By PNB At The Time Of Applying Housing Loan?"],
+    "responses": ["While applying for housing loan, you are required to furnish the following information/ documents: Loan application form, duly completed, with Photograph, Identity Proof, Address/ Residence Proof, Age Proof, Education Qualification Proof, Income Proof:, Salaried Class : Salary Certificate issued by the employer (indicating gross and net salary), Income Tax Return, Bank Statement of Salary account for last six months, Agriculturist : Record of land holding and cropping pattern or any other proof of income, For all other individuals : Last 3 years Income Tax Returns or Assessment Order and Computation of Income Statement; Bank Statement of Account for last six months, Income Proof of spouse/ earning children/ co-borrowers (if applicable), Undertaking of the borrower/co-borrower as to whether he/she owns residential property in his/her name, Any other document which may be necessary as per requirement of the case."]
+  },
+  {
+    "tag": "Sactioned_Car_Loan",
+    "patterns": ["How much amount can be sanctioned under PNB Car Loan Scheme"],
+    "responses": ["To individuals/ proprietorship concerns � 25 times net monthly salary/income. (Max. amount of loan - Rs. 100 lac), To business concerns � Need based loans are sanctioned."]
+  },
+  {
+    "tag": "Income_Criteria_Car_Loan",
+    "patterns": ["Is there any income criteria for availing the car loan"],
+    "responses": ["Yes, minimum net monthly salary / pension/ income of Rs. 20,000/-"]
+  },
+  {
+    "tag": "Old_Car_Car_Loan",
+    "patterns": ["Can a car loan be sanctioned for purchase of old car"],
+    "responses": ["Yes, loan can be sanctioned for vehicles which are not older than 3 years"]
+  },
+  {
+    "tag": "Borrower_Contribute_Car_Loan",
+    "patterns": ["How much amount is the borrower required to contribute for car loan"],
+    "responses": ["For new vehicles, borrower is required to contribute 10% in case of purchase of vehicles from Maruti, Tata Motors, Honda, Mahindra & Mahindra, Extreme & Force Motors Ltd., with whom Bank is having a tie up arrangement, For purchase of new vehicles of other make/ companies, 15% is required to be contributed, For old Vehicles, margin requirement is 30%"]
+  },
+  {
+    "tag": "Maximum_Repayment_Period_Car_Loan",
+    "patterns": ["What is maximum repayment period under Car Loan Scheme"],
+    "responses": ["For new Vehicles: Max 84 months, For Old Vehicles: Max 60 months."]
+  },
+  {
+    "tag": "Who_Apply_Education_Loan",
+    "patterns": ["Who can apply for the Education loan"],
+    "responses": ["Any Indian National is eligible for education loan."]
+  },
+  {
+    "tag": "Co_Obligant_Education_Loan",
+    "patterns": ["Who can be co-obligant"],
+    "responses": ["The parents, grandparents, spouse, parents-in-law can be co-obligant."]
+  },
+  {
+    "tag": "Maximum_Education_Loan",
+    "patterns": ["What is the maximum amount of Education loan that can be givien"],
+    "responses": ["Rs. 1.50 lakh"]
+  },
+  {
+    "tag": "Additional_Education_Loan_Same_Course",
+    "patterns": ["Whether additional Education loan for the same course can be given"],
+    "responses": ["Requirement of additional Education loan for the same course for which loan has already been sanctioned may be considered on merits as a part of the original project within the maximum loan amount limit of Rs. 1.50 lakh."]
+  },
+  {
+    "tag": "Additional_Education_Loan_Skill_Development",
+    "patterns": ["Whether additional Education loan for further skill development courses is available"],
+    "responses": ["Top up loans to students pursuing further skill development courses within the overall eligibility limit, may be considered on merits."]
+  },
+  {
+    "tag": "Period_Education_Loan",
+    "patterns": ["For how long a period can I get the Education loan"],
+    "responses": ["The loan is granted for the full term of the course and repayment is permitted within 3 to 7 years after repayment holiday/moratorium, depending on the quantum of loan sanctioned."]
+  },
+  {
+    "tag": "Repayment_Period_Education_Loan",
+    "patterns": ["What is the repayment period for education loan ?"],
+    "responses": ["For course of duration upto 1 year 6 months from the course completion, For course of duration above 1 year 12 months from the course completion."]
+  },
+  {
+    "tag": "Concession_Interest_Education_Loan",
+    "patterns": ["Is there any concession in interest for education loan"],
+    "responses": ["Yes, 1% interest concession in the account is available if the interest is serviced during the study period when repayment holiday is specified for interest / repayment under the scheme. The rate of interest applicable at any time shall not be below Base rate/MCLR of the Bank after providing concession in rate of interest."]
+  },
+  {
+    "tag": "Concession_Interest_Education_Loan_Female",
+    "patterns": ["Is there any concession in interest of Education loan for Female Beneficiary?"],
+    "responses": ["Yes, 0.50% interest concession in the account is available. The rate of interest applicable at any time shall not be below Base rate/ MCLR of the Bank after providing concession in rate of interest."]
+  },
+  {
+    "tag": "Periodicity_Charging_Interest_Education_Loan",
+    "patterns": ["What is the periodicity of charging of interest for Education Loan"],
+    "responses": ["Simple interest at monthly rests is charged during the repayment holiday /moratorium period whereas from the due date of repayment, interest is compounded on monthly basis."]
+  },
+  {
+    "tag": "Penalty_Education_Loan",
+    "patterns": ["Do you levy any penalty for default for Education Loan"],
+    "responses": ["There is no penalty for loans upto Rs. 25000/-. However, in case of default, penal interest @ 2% is charged on the outstanding amount."]
+  },
+  {
+    "tag": "Documents_Education_Loan",
+    "patterns": ["What are the important documents that I need to provide to get Education Loan"],
+    "responses": ["The following documents are required to be furnished: Loan application as per approved Performa of Ministry of Skill Development and Entrepreneurship, Passport size photograph, Proof of Address, Proof of Age, Proof of having secured pass marks in last qualifying examination, Letter of admission in vocational/skill development courses, Prospectus of the course wherein charges like Admission Fee, Examination Fee, Hostel Charges etc. are mentioned, Details of Assets & Liabilities of parents/co-obligants/guarantors, Copy of PAN / Aadhar of student borrower, A declaration/an affidavit confirming that no loans are availed from other banks, Any other document/information, depending upon the case and purpose of the loan."]
+  },
+  {
+    "tag": "Processing_Fee_Education_Loan",
+    "patterns": ["Are there any charges or processing fee for Education Loan"],
+    "responses": ["No processing/ upfront charges."]
+  },
+  {
+    "tag": "Moratorium_Period_Education_Loan",
+    "patterns": ["Since there is a moratorium period, how will my repayments be determined"],
+    "responses": ["The outstanding interest for the moratorium period will be added to the loan amount at the time of commencement of the repayment. The EMI will be determined on this amount at the time the repayment is to commence."]
+  },
+  {
+    "tag": "Avail_Education_Loan",
+    "patterns": ["Where can I avail of educational loan"],
+    "responses": ["Loan application is to be submitted at the branch nearest to the place of residence of the parents of the student or online through www.vidyalakshmi.co.in"]
+  },
+  {
+    "tag": "Sactioned_Amount_Two_Wheeler_Loan",
+    "patterns": ["How much amount can be sanctioned for Two Wheeler Loan"],
+    "responses": ["For super bikes / hybrid two wheeler (Engine capacity 200CC & above) � Maximum Rs. 3.00 lac (subject to repayment capacity), For all other Two Wheeler Maximum Rs. 1.50 lac (subject to repayment capacity)"]
+  },
+  {
+    "tag": "Income_Criteria_Two_Wheeler_Loan",
+    "patterns": ["Is there any income criteria for availing the Two Wheeler loan"],
+    "responses": ["Yes, minimum net monthly salary / pension/ income of Rs. 10,000/-."]
+  },
+  {
+    "tag": "Borrower_Contribute_Two_Wheeler_Loan",
+    "patterns": ["How much amount is the borrower required to contribute for Two Wheeler Loan"],
+    "responses": ["Where salary is being disbursed through the concerned bank branch and/ or Check off facility is available, margin requirement is 10%, For others and business concerns, margin requirement is 25%."]
+  },
+  {
+    "tag": "Maximum_Repayment_Period_Two_Wheeler_Loan",
+    "patterns": ["What is maximum repayment period for Two Wheeler Loan"],
+    "responses": ["For Scooter and Motorcycle � 60 months, For Scooterrete � 30 months, For Mopeds � 24 months."]
+  },
+  {
+    "tag": "Documentation_Charges_Two_Loan",
+    "patterns": ["What are the upfront fee and documentation charges for Two Wheeler Loan"],
+    "responses": ["Click this link : https://www.pnbindia.in/service-charges-related-to-retail-advances.html"]
+  },
+  {
+    "tag": "ROI_Two_Wheeler_Loan",
+    "patterns": ["What is the ROI for Two Wheeler Loan"],
+    "responses": ["Click this link : https://www.pnbindia.in/interst-rate-on-advances-linked-to-mclr.html"]
+  },
+  {
+    "tag": "NEFT",
+    "patterns": ["What Is NEFT"],
+    "responses": ["NEFT stands for 'National Electronic Funds Transfer'. NEFT system is a nation wide funds transfer system to facilitate transfer of funds from any bank branch to any other bank branch."]
+  },
+  {
+    "tag": "Funds_Availability_Schedule_Beneficiary_NEFT",
+    "patterns": ["What Is The Funds Availability Schedule For The Beneficiary"],
+    "responses": ["The fund transfer takes place within the same day if it within the cut-off time and the next working day if it is beyond the cut-off time prescribed. It is a batch settlement mode."]
+  },
+  {
+    "tag": "All_Bank_Branches_Country_Part_NEFT",
+    "patterns": ["Are All Bank Branches In The Country Part Of The NEFT Funds Transfer Network"],
+    "responses": ["No. As on September 2010, little over 70,000 branches / offices of 99 banks in the country (out of around 80,000 bank branches) are NEFT enabled. List of Punjab National Bank Branches, which are offering this service can be found on our website at www.pnbindiin"]
+  },
+  {
+    "tag": "Who_Can_Transfer_Funds_NEFT",
+    "patterns": ["Who Can Transfer Funds Using NEFT"],
+    "responses": ["Individuals, firms or corporates maintaining accounts with a bank branch can transfer funds using NEFT. Even such individuals, firms or corporates who do not have a bank account (walk-in customers) can also deposit cash at the NEFT enabled branch with instructions to transfer funds using NEFT. Such customers have to furnish full details including complete address, telephone number, etc. NEFT, thus, facilitates originators or remitters to initiate funds transfer transactions even without the need for having a bank account."]
+  },
+  {
+    "tag": "Who_Can_Receive_Funds_NEFT",
+    "patterns": ["Who Can Receive Funds Through The NEFT System"],
+    "responses": ["Individuals, firms or corporates maintaining accounts with a bank branch can receive funds through the NEFT system. It is, therefore, necessary for the beneficiary to have an account with the NEFT enabled destination bank branch in the country."]
+  },
+  {
+    "tag": "Limit_Transferred_NEFT",
+    "patterns": ["Is There Any Limit On The Amount That Could Be Transferred Using NEFT"],
+    "responses": ["Minimum � No limit, Maximum � Rs. 500.00 lacs"]
+  },
+  {
+    "tag": "Operating_Hours_NEFT",
+    "patterns": ["What Are The Operating Hours Of NEFT"],
+    "responses": ["Presently, NEFT operates in hourly batches - there are twelve settlements from 8 am to 7 pm on week days and six settlements from 8 am to 1 pm on Saturdays."]
+  },
+  {
+    "tag": "Maximum_Minimum_Transactions_NEFT",
+    "patterns": ["What Is The Minimum and Maximum Amount For NEFT Transactions Under Retail/Corporate Internet Banking"],
+    "responses": ["NEFT-Online for Retail Internet Banking Customers � Below Rs.2 lac as Maximum amount limit per transaction within the overall per day funds transfer limit of Rs.15 lac, NEFT-Online & BULK-NEFT for Corporate Internet Banking Customers � no maximum amount limit per transaction but within the authorized / defined limits of the corporate internet banking user."]
+  },
+  {
+    "tag": "How_NEFT_Operates",
+    "patterns": ["How Does The NEFT System Operates"],
+    "responses": ["Step-1: The remitter fills in the NEFT Application from giving the particulars of the beneficiary (like, name of the beneficiary, name of the bank branch where the beneficiary has an account, IFSC of the beneficiary bank branch, account type and account number) and authorizes the branch to remit the specified amount to the beneficiary by raising a debit to the remitter`s account. Customers enjoying net banking facility offered by our bank can initiate the funds transfer request online. Walk-in customers will, however, have to give their contact details (complete address and telephone number, etc.) to the branch. This will help the branch to refund the money to the customer in case credit could not be afforded to the beneficiary`s bank account or the transaction is rejected / returned for any reason. NEFT has a provision to send SMS/E-mail regarding confirmation of credit of beneficiary`s account, Step-2: The remitting branch prepares a Structure Financial Messaging Solution (SFMS) message and sends it to its Service Centre for NEFT, Step-3: The Service centre forwards the same to the local RBI (National Clearing Cell, Mumbai) to be included for the next available settlement, Step-4: The RBI at the clearing Centre sorts the transactions bank-wise and prepares accounting entries of net debit or credit for passing on to the banks participating in the system. Thereafter, bank-wise remittance messages are forwarded to banks through their service centre for NEFT, Step-5: The receiving banks process the inward remittance messages received from RBI and effect the credit to the beneficiary accounts."]
+  },
+  {
+    "tag": "IFSC",
+    "patterns": ["What Is IFSC"],
+    "responses": ["IFSC or Indian Financial System Code is an alpha-numeric code that uniquely identifies a bank-branch participating in the NEFT system. This is a 11 digit code with the first 4 alpha characters representing the bank code, 5th character is 0 (zero) and the last 6 numeric characters representing the branch code."]
+  },
+  {
+    "tag": "IFSC_Bank_Branch_Found",
+    "patterns": ["How Can The IFSC Of A Bank-Branch Be Found"],
+    "responses": ["RBI had since advised all the banks to print IFSC on cheques leaves issued to their customers. IFSC code of Punjab National Bank branches can be found on our website. IFSCs is available on the website of Reserve Bank of India at http://www.rbi.org.in/scripts/neft.aspx"]
+  },
+  {
+    "tag": "Service_Charges_NEFT",
+    "patterns": ["What is the service charges for NEFT"],
+    "responses": ["Inward Transactions: Free, Outward Transactions: (From Branch): Upto Rs.10000/-  Rs.2.00 + GST, Above Rs.10000/- to 100000/- Rs.4.00 + GST, Above Rs.100000/- to 200000/- Rs.12.00 + GST, Above Rs.200000/- Rs.20.00 + GST, (From IBS/MBS): NIL"]
+  },
+  {
+    "tag": "Beneficiary_Expect_Credit_NEFT",
+    "patterns": ["When Can The Beneficiary Expect To Get The Credit To His Bank Account in NEFT"],
+    "responses": ["The beneficiary can expect to get credit for the first ten batches on week days (i.e., transactions from 8 am to 5 pm) and the first five batches on Saturdays (i.e., transactions from 8 am to 12 noon) on the same day. For transactions settled in the last two batches on week days (i.e., transactions settled in the 6 and 7 pm batches) and the last batch on Saturdays (i.e., transactions handled in the 1 pm batch) beneficiaries can expect to get credit either on the same day or on the next working day morning."]
+  },
+  {
+    "tag": "Non-Credit_Delay_Credit_NEFT",
+    "patterns": ["Who Should Be Contacted In Case Of Non-Credit Or Delay In Credit To The Beneficiary Account in NEFT"],
+    "responses": ["In case of non-credit or delay in credit to the beneficiary account, the NEFT Customer Facilitation Centre (CFC) of the bank and Help Desk of the bank can be contacted .Details of NEFT Customer Facilitation Centres of our bank is available on the websites of our banks and detail of help desk are as under: Help Desk, The user can contact the nearest Branch and/or approach NEFT Help Desk as under:-Punjab National Bank, RTGS � NEFT Cell, First Floor, PNB House, Sir P M Road, Fort, Mumbai - 400 001, Email:neft@pnb.co.in, If the issue is not resolved satisfactorily, the NEFT Help Desk (or Customer Facilitation Centre of Reserve Bank of India) at National Clearing Cell, Reserve Bank of India, Mumbai may be contacted through e-mail at nefthelpdeskncc@rbi.org.in or by addressing correspondence to the General Manager, Reserve Bank of India, National Clearing Centre, First Floor, Free Press House, Nariman Point, Mumbai � 400 021."]
+  },
+  {
+    "tag": "Transfer_NRE_NRO_NEFT",
+    "patterns": ["Can NEFT Be Used To Transfer Funds From / To NRE And NRO Accounts"],
+    "responses": ["Yes. NEFT can be used to transfer funds from or to NRE and NRO accounts in the country. This, however, is subject to the adherence of the provisions of the Foreign Exchange Management Act, 2000 (FEMA)."]
+  },
+  {
+    "tag": "Transaction_Originated_Draw_Funds_Another_Account_NEFT",
+    "patterns": ["Can A Transaction Be Originated To Draw (Receive) Funds From Another Account"],
+    "responses": ["No. NEFT is a credit-push system i.e., transactions can be originated only to transfer funds to a beneficiary."]
+  },
+  {
+    "tag": "Acknowledgement_NEFT",
+    "patterns": ["Would The Remitter Receive An Acknowledgement Once The Funds Are Transferred To The Account Of The Beneficiary"],
+    "responses": ["Yes. In case of successful credit to the beneficiary's account, the bank which had originated the transaction is expected to send a confirmation to the originating customer (through SMS or e-mail) advising of the credit as also mentioning the date and time of credit. For the purpose, remitters need to provide their mobile number / e-mail-id to the branch at the time of originating the transaction."]
+  },
+  {
+    "tag": "Not_Credited_Beneficiary_Account_NEFT",
+    "patterns": ["Would The Remitting Customer Gets Back The Money, If It Is Not Credited To The Beneficiary Account"],
+    "responses": ["Yes, the remitting customer gets back the money if it is not credited to the beneficiary account"]
+  },
+  {
+    "tag": "Track_Transaction_NEFT",
+    "patterns": ["Is There A Way For The Remitter To Track A Transaction In NEFT"],
+    "responses": ["Yes, the remitter can track the NEFT transaction through the originating bank branch. It is possible for the originating bank branch to keep track and be aware of the status of the NEFT transaction at all times."]
+  },
+  {
+    "tag": "Pre_Requisites_NEFT",
+    "patterns": ["What Are The Pre Requisites For Originating A NEFT Transaction"],
+    "responses": ["Following are the pre-requisites for putting through a funds transfer transaction using NEFT: Originating and destination bank branches should be part of the NEFT network, Beneficiary details such as beneficiary name, account number and account type, Name and IFSC of the beneficiary bank branch."]
+  },
+  {
+    "tag": "ATM",
+    "patterns": ["What Is An Automated Teller Machine (ATM)"],
+    "responses": ["An Automated Teller Machine (ATM) is an electronic machine that provides the banking customers the facility to do basic banking transactions like cash withdrawal, balance enquiry, generation of mini statement of account and many other financial and non-financial transactions without the need of actually visiting a bank branch."]
+  },
+  {
+    "tag": "Locate_ATM",
+    "patterns": ["How To Locate ATM ?"],
+    "responses": ["PNB ATM can be located through ATM locator search engine of Bank's website www.pnbindicom, or through PNB ATM Assist Mobile app that can be downloaded free from Googleapp store."]
+  },
+  {
+    "tag": "Services_ATM",
+    "patterns": ["What Are The Services and Facilities Available At ATMs"],
+    "responses": ["Basic functions : Cash Withdrawal, Balance Enquiry, Mini Statement of Account, Funds Transfer, Within accounts linked to a Debit Card, Third party fund transfer i.e. other PNB account holders, IMPS Registration & fund Transfer through ATMs, PIN Change; Other financial / non-financial functions: Credit Card Payment, Card to Card Fund Transfer, Issuance of Green PIN, IBS registration, Mobile Banking Registration, Cheque book request, Utility Bills payment, Customer Complaint for non-disbursement of cash through ATMs, Income Tax Payment through ATMs, CRM lead Management, Request for Cheque book through ATMs, Stop Cheque Payment request through ATMs, Facility for requesting OD for PMJDY customers, PNB has installed �Bulk Cash Acceptor cum ATM machines� at selected locations which accepts deposit of cash also."]
+  },
+  {
+    "tag": "Types_ATM_Cards_Issued",
+    "patterns": ["What Are The Different Types Of ATM Cards Issued By PNB"],
+    "responses": ["Presently, PNB is issuing following types of cards which can be used at ATMs: PNB Rupay Classic, PNB Rupay Platinum, PNB MasterCard Classic, PNB MasterCard Platinum, PNB MasterCard International, PNB World Travel Card (Prepaid card), PNB Suvidha Card, PNB has also started issuing Contactless Cards and Image Cards."]
+  },
+  {
+    "tag": "Types_ATM_Cards_Used",
+    "patterns": ["What Type Of Cards Can Be Used At An ATM"],
+    "responses": ["All variants of PNB Debit Cards/PNB credit cards and PNB prepaid cards (except Gift Cards) can be used at PNB ATMs for various transactions. All other Bank�s cards (Domestic of Foreign) which are affiliated to MasterCard, maestro and Citrus as well as Visa Cards of Banks which are members of the National Financial Switch of NPCI can also be used for doing transactions on PNB ATMs."]
+  },
+  {
+    "tag": "Transact_ATM",
+    "patterns": ["How Can One Transact At An PNB ATM"],
+    "responses": ["For transacting at PNB ATM, the customer has to insert (swipe) his/her card in the ATM. Further, the operations are menu driven. Customer is required to enter information as desired in the subsequent screens till the request of the customer is finally responded. It is advised to ensure that no one else is in the ATM room when one customer is transacting at the ATM. Customers are advised to maintain secrecy of card number and PIN thereof."]
+  },
+  {
+    "tag": "Cards_Other_Bank_ATM",
+    "patterns": ["Can PNB Cards Be Used At ATM Of Any Other Bank In The Country"],
+    "responses": ["Yes. The cards issued by PNB can be used at ATM of all other Banks within India which are members of National Financial Switch (NFS) of NPCI. (Presently all scheduled commercial banks of India are members of NFS). Cards specifically defined for international usage like PNB International Card and PNB World Travel card can also be used at the overseas locations also."]
+  },
+  {
+    "tag": "Service_Charge_Other_Bank_ATM",
+    "patterns": ["Do Banks Levy Any Service Charge For Use Of Other Bank ATMs"],
+    "responses": ["As per RBI existing guidelines, up to 5 transactions (financial & non financial) including up to a maximum of 3 transactions at Metro locations, are free for the savings account holders, when transacting at ATMs of other Banks. Transactions done beyond these free transactions limit are chargeable. This facility of free transactions is not available for other types of accounts (i.e. other than Savings Account accounts) for transactions done at ATMs of other Banks. At present, charges per transaction at ATMs of other Bank is Rs. 20/-."]
+  },
+  {
+    "tag": "Service_Charge_Cards_PNB_ATM",
+    "patterns": ["Does PNB Levy Any Service Charge For Use Of Its Cards At PNB ATMs"],
+    "responses": ["PNB cardholders transacting at PNB ATMs are charged @ Rs. 10/- + GST per transaction beyond 5 free transactions (including both financial as well as non financial transaction)."]
+  },
+  {
+    "tag": "Maximum_Cash_Withdrawal_ATM",
+    "patterns": ["Is There Any Maximum Cash Withdrawal Limit Per Day"],
+    "responses": ["Yes, PNB cardholder can withdraw up to a maximum of Rs. 15000/- from PNB ATMs at a time and up to a maximum Rs. 25000/- for Classic Card and Rs. 50000/- for Platinum & International Card respectively during a day. For cash withdrawals at other bank ATMs, up to maximum of Rs 10,000/- can be withdrawn in a single transaction within the overall limit of the card."]
+  },
+  {
+    "tag": "PIN_Forgotten",
+    "patterns": ["What Should One Do If PIN Is Forgotten"],
+    "responses": ["As explained above, PNB has introduced Green PIN facility for issuance of PIN including duplicate PIN. If customer forgets PIN, he/she can send SMS in the format DCPINCard Number to 5607040 from registered mobile number for the account. Customer will receive OTP, which can be used to reset PIN at any PNB ATM / PNB Internet Banking Portal., PIN can be reset through PNB Net Banking also."]
+  },
+  {
+    "tag": "ATM_Card_Lost",
+    "patterns": ["What Should Be Done If The ATM Card Is Lost or Stolen"],
+    "responses": ["When the card is lost / stolen, it has to be blocked immediately. The customer can get the card blocked in any of the following ways: By sending SMS in the format: HOTDebit Card Number to 5607040, By contacting Bank�s toll free numbers (1800 180 2222, 1800 103 2222). Docket number obtained should be preserved for any future communication with the Bank in this regard, By contacting card issuing branch,Through Internet Banking Service"]
+  },
+  {
+    "tag": "Cash_Not_Disbursed_Amount_Debited_ATM",
+    "patterns": ["What Should Be Done In Case During The Cash Withdrawal Process, Cash Is Not Disbursed But The Account Gets Debited in ATM"],
+    "responses": ["The customer should immediately call Bank�s toll free numbers (1800 180 2222, 1800 103 2222) and lodge complaint. Docket number obtained against the complaint lodged should be kept for future communication with the Bank in this regard. The customer may also approach card issuing branch at the earliest to lodge complaint.. This process is applicable even if the transaction was carried out at another Bank�s ATM. For Cash less/more/not dispensed at PNB ATM, complaint can also be reported through PNB ATM Assist Mobile App"]
+  },
+  {
+    "tag": "Wrong_Debits_ATM",
+    "patterns": ["How Many Days Would The Bank Require For Crediting The Account For Such Wrong Debits in ATM"],
+    "responses": ["When the transaction does not get completed due to connectivity/network issue, the account is credited immediately by PNB. This is being done by the Bank proactively, without waiting for any formal complaint by the customer. Sometimes, when customer receives no cash at PNB ATM due to some technical fault, the amount is credited within 3-4 working days after the error is established during reconciliation of the ATM. As per the RBI instructions, Banks have been mandated to resolve customer complaints by crediting the customer�s account within 7 working days from the date of complaint."]
+  },
+  {
+    "tag": "ATM_Card_Expired_Accout_Closed",
+    "patterns": ["What Should Be Done With The ATM Card When The Card Is Expired Or The Account Is Closed"],
+    "responses": ["Customer should destroy the card upon card expiry or closure of account, cut it into four pieces through the magnetic strip/chip before disposing it off."]
+  },
+  {
+    "tag": "Secure_ATM_Transaction",
+    "patterns": ["How Shall The Customer Keep His/Her ATM Transaction Secure"],
+    "responses": ["Customers should observe following Do'es and Dont's to keep their transaction safe and secure at ATM: Please note that our bank officials will never ask for card details or PIN over telepho ne / email. So, do not respond to any calls/phishing mails from people indicating that they represent our Bank, Customer should conduct ATM transactions in complete privacy, Only one card holder should enter and access ATM kiosk at a time, He/she should never lend his/her card to anyone, Do not write PIN on the card, Never share PIN with anyone, Never seek help from anybody by handing over the card and revealing the PIN, Never let anyone see the PIN while it is being entered at the ATM, Never use a PIN that could be easily guessed. e.g. his/her birthday, birthday of spouse or telephone number, Never leave behind card in the ATM kiosk, Register mobile number with the card issuing bank for getting alerts for ATM transactions. Any unauthorized card transaction in the account, if observed, should be immediately reported to the card issuing bank, Beware of any extra devices attached to the ATMs. These may be put to capture customer�s data fraudulently. If any such device is found, inform the Caretaker / Bank immediately, Keep an eye on suspicious movements of people around ATMs. Customer should beware of strangers trying to engaging him/her in conversation or offering assistance / help in operating the ATM"]
+  }
+  ]
+}

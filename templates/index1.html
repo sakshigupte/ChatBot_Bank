@@ -1,0 +1,69 @@
+<html> 
+<head>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body> 
+	<h3>Loan Prediction Form</h3> 
+
+<div> 
+<form action="/result" method="POST"> 
+	<label for="gender">Gender</label> 
+	<select id="gender" name="gender"> 
+	<option value="0">Female</option> 
+	<option value="1">Male</option> 
+	</select>  
+	<br> 
+	<label for="married">Maritial Status</label> 
+	<select id="married" name="married"> 
+	<option value="0">Unmarried</option> 
+	<option value="1">Married</option> 
+	</select>  
+	<br>
+	<label for="dep">Dependents</label> 
+	<input type="text" id="dep" name="dep"> 
+	<br> 
+	<label for="edu">Education</label> 
+	<select id="edu" name="edu"> 
+	<option value="0">Graduate</option> 
+	<option value="1">Not Graduate</option> 
+	</select> 
+	<br> 
+	<label for="emp">Self_Employed</label> 
+	<select id="emp" name="emp"> 
+	<option value="0">No</option> 
+	<option value="1">Yes</option> 
+	</select> 
+	<br> 
+	<label for="app_inc">Applicant Income</label> 
+	<input type="text" id="app_inc" name="app_inc"> 
+	<br> 
+	<label for="co_app">Co-applicant Income</label> 
+	<input type="text" id="co_app" name="co_app"> 
+	<br>    
+	<label for="loan_amt">Loan Amount</label> 
+	<input type="text" id="loan_amt" name="loan_amt"> 	
+	<br> 
+	<label for="loan_amount_term">Loan Amount Term</label> 
+	<input type="text" id="loan_amount_term" name="loan_amount_term"> 
+	<br> 
+	<label for="credit_history">Credit History</label> 
+	<input type="text" id="credit_history" name="credit_history">btw:[0-1] 
+	<br> 
+	<label for="property_area">Property Area</label> 
+	<select id="property_area" name="property_area"> 
+	<option value="0">Rural</option> 
+	<option value="1">Semiurban</option>
+    <option value="1">Urban</option>
+	</select> 
+	<br> 
+	<input type="submit" value="Submit">
+</form> 
+    
+      <h1> {{ prediction }}</h1> 
+</div> 
+</body> 
+</html> 
